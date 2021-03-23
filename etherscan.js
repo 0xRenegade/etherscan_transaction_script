@@ -15,19 +15,8 @@ const api = require("etherscan-api").init(process.env.ETHERSCAN_API_KEY);
 
 // Declarations
 const wallets = [
-  "0x1cc9380c0027b3a1dc603ee369f3fa23464e2d0c",
-  "0xbf3d39c03b8eb95ff447a2a4e9fe3d80365a9ecb",
-  "0xd202dd30921a95eef92d83b265af691b74a2b946",
-  "0x4a0c8f6c1f6523fb4dd07b2dea71efa8759fa4ef",
-  "0xc3c8fa59452f6d257cfcd6d04c2d469918a1792a",
-  "0x8d082f80606b8f93827a8a8e8c1c48950be60a33",
-  "0x70D1ddFc171E4136635D136c05EFAc3182030d84",
-  "0x3af19d305ac89cbafb7cb97234b795d4478215b7",
-  "0x8F1AF78D004B412E0CBF091753B976455AB2C02F",
-  "0x86054B86121FD0D9571338F6A5B27C938CB3BA70",
-  "0x9d654a6927402782519377efc59a0b0dd93b3759",
+  // Array of wallet addresses found on etherscan
 ];
-// const testWallet = "0x3f5ce5fbfe3e9af3971dd833d26ba9b5c936f0be";
 const app = express();
 const telegramBotUrl =
   "https://api.telegram.org/bot" +
