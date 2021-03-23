@@ -1,0 +1,25 @@
+{
+  "name": "coin-cache-and-sys-init",
+  "version": "1.0.0",
+  "description": "This will compare the two API requests and send them to other service workers",
+  "main": "etherscan.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ZeroTex",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "date-and-time": "^0.14.2",
+    "dotenv": "^8.2.0",
+    "etherscan-api": "^10.0.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "node-schedule": "^2.0.0",
+    "pm2": "^4.5.4"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
+}
